@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: rgba(145, 157, 168, 0.356);
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    
+}
+.navbar-content{
+    color: white;
+    font-weight:400;
+     font-size:2.5em; 
+     margin-left: 15%;
+}
+.blue{
+    color:blue;
+    font-weight:400; 
+}
+.navbar-content1{
+    color: white;
+    font-weight:400;
+     font-size:1.3em; 
+     margin-left: 15%;
+}
+.Header {
+    width: 70%;
+    
+    background: blue;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.1em;
+    align-self: center;
+    justify-self: center;
+    margin-left: 15%;
+    margin-top: 2.3%;
+    
+}
+.Header ul {
+    padding: 0em;
+    margin: 0em;
+}
+
+.Header li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.2em 1.4em 1.2em 1.4em;
+
+}
+
+.Header li:hover {
+    background: #095b92;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.2em 1.4em 1.2em 1.4em;
+    margin: 0px;
+   
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+u {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: rgb(245, 103, 126);
+    line-height: 1em;
+
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+}
+.B2 {
+   
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+   
+}
+
+.container {
+    width: 70%;
+    margin: 0 5% 0 5%;
+    background: white;
+    box-sizing: border-box;
+    display: grid;
+    
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    padding: 0.8em;
+    align-self: center;
+    justify-self: center;
+
+
+}
+
+.containeritem1 {
+
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-left: 4;
+    text-align-last: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.containeritem1 p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5em;
+
+}
+
+.containeritem2 {
+    box-sizing: border-box;
+    padding-top: 7%;
+    padding-left: 4;
+    text-align-last: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+
+}
+
+.containeritem2 a {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    padding: 20% 0% 10% 0%;
+    line-height: 1.5em;
+}
+
+.containeritem2 ul li {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5em;
+}
+
+.containeritem3 {
+    box-sizing: border-box;
+    padding-top: 13%;
+    padding-left: 5;
+
+    text-align-last: left;
+
+}
+
+.containeritem3 a+p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #000000;
+    padding: 5% 0% 10% 0%;
+    line-height: 1.5em;
+}
+
+.containeritem4 {
+    box-sizing: border-box;
+    text-align-last: left;
+    text-align-last: left;
+    padding-top: 10%;
+    padding-left: 5;
+
+}
+
+.containeritem4 li {
+    list-style-type: none;
+
+}
+
+.containeritem4 ul {
+    margin: 0;
+
+}
+
+.containeritem5 {
+    font-size: 1.4em;
+    box-sizing: border-box;
+    text-align-last: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom:10%;
+    padding-left: 5;
+
+
+}
+
+.containeritem5 div {
+    width: 60%;
+    line-height: 1.5em;
+}
+
+.searchterm {
+    width: 70%;
+    color: black;
+    border: 0.125em solid black;
+    padding: 0.375em 0em 0.375em 0.25em;
+    margin: 0.375em;
+    
+    
+}
+
+
+.footer {
+    width: 70%;
+    
+    background: blue;
+    margin: 0em;
+    padding: 0.5em 0em 0.5em 0em;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.containeritem4 li>a {
+    color: rgb(245, 103, 126);
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.hello{
+    color: blue;
+}
